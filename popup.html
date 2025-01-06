@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <title>Video Speed Booster</title>
+</head>
+<body>
+  <div class="popup-container">
+    <div class="popup-title">Video Speed Booster</div>
+
+    
+    <div class="speed-slider">
+      <span>1x</span>
+      <input type="range" id="speedControl" min="1" max="5" step="0.1" value="1">
+      <span>5x</span>
+    </div>
+
+
+    <button class="button" id="resetButton">Reset Speed</button>
+    <button class="button" id="applyButton">Apply Speed</button>
+
+    
+    <div class="dark-mode-toggle">
+      <label for="darkMode">Dark Mode</label>
+      <input type="checkbox" id="darkMode">
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
